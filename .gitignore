@@ -1,0 +1,36 @@
+# Notebook / Python cruft
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large data & model artifacts (link to sources instead of committing)
+*.csv
+*.tar.gz
+*.pkl
+*.pickle
+cifar-10-batches-py/
+checkpoint-*/
+tinybert-sst2/
+*.joblib
+*.parquet
+*.pptx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Media that bloats the repo (keep out unless intentionally added with LFS)
+*.mp4
+
+# Never commit — secrets & PII
+*token*
+*Token*
+*.env
+
+# Documents pulled for reworking — never push as-is
+_rework/
+
+# Internal planning notes — keep local, never publish
+TRIAGE.md
+NOTES_TO_COVER.md
+REWORK.md
